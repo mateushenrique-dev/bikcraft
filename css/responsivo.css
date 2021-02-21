@@ -1,0 +1,129 @@
+/* Estilo para Tablets */
+
+@media only screen and (min-width: 788px) and (max-width: 979px){
+
+    /* Qualidade Home */
+
+    .qualidade_lista li{
+        padding: 0 10px;
+    }
+
+    .qualidade:after{
+        right:  66px;
+    }
+
+    .footer_redes ul li a img{
+        height: 15px;
+    }
+
+    .img-exem{
+        display: none;
+    }
+
+    .produto_info{
+        display: none;
+    }
+
+    .produto_icone{
+        background: #000;
+        padding: 41px 0;
+    }
+
+    .produto_item h2{
+        top: -143px;
+    }
+
+    .cit{
+        margin: 0 30px;
+    }
+
+    .contato_redes ul li a img{
+        height: 15px;
+    }
+
+}
+
+/* Estilo para Celulares */
+
+@media only screen and (max-width: 788px){
+
+    /* Header */
+
+    .header{
+        position: relative;
+        padding-bottom: 0;
+    }
+
+    .header img{
+        margin: 0 auto 20px auto;
+
+    }
+
+    .header_menu{
+        text-align: center;
+    }
+
+    .header_menu ul li{
+        margin: 5px;
+    }
+
+    .header_menu ul li a{
+        border: 4px solid #000;
+        width: 136px;
+        display: block;
+        float: left;
+    }
+
+    .header_menu ul li a:hover{
+        border-color: #fff;
+    }
+
+    /* Introdução */
+
+    .introducao{
+        margin-top: 0;
+        padding-top: 20px;
+        background: url(../img/bg-mobile.jpg) no-repeat center;
+    }
+
+    .introducao h1 {
+        font-size: 36px;
+    }
+
+    .introducao-interna{
+        margin-top: 0px;
+    }
+
+
+    /* Qualidade */
+
+    .qualidade:after {
+        background: none;
+    }
+
+    .missao_sobre ul li{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .missao_sobre p{
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 1em;
+        padding-right: 60px;
+    }
+
+    .produto_info{
+        display: none;
+    }
+
+    .img-exem{
+        display: none;
+    }
+
+    .produto_item h2{
+        top: -100px;
+    }
+
+}

@@ -1,0 +1,28 @@
+.interna_portfolio{
+    background: url("../img/bg-portfolio.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.citacao{
+    height: 225px;
+    width: 420px;
+    text-align: center;
+    padding-top: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.citacao blockquote cite{
+    display: block;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    line-height: 30px;
+}
+
+.cit{
+        margin: 0px auto;
+}
